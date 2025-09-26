@@ -11,7 +11,8 @@ A collection of useful API endpoints and how to use them.
   - [Request Response Patterns](usage.md#request-response-patterns)
 - Graph APIs
   - Authentication
-  - Authenticator
+    - [Authentication Methods](apis/graph/v1/authentication-methods.md)
+    - Microsoft Authenticator
   - [People](apis/graph/v1/people.md)
   - [Roles](apis/graph/v1/roles.md)
   - Files
