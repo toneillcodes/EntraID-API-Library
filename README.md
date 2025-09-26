@@ -1,5 +1,5 @@
 # Entra ID Offensive API Endpoints
-A collection of useful API endpoints.
+A collection of useful API endpoints and how to use them.
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
 ## Table of Contents
