@@ -4,8 +4,8 @@ A collection of useful API endpoints and how to use them.
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
 ## Table of Contents
 - Microsoft API Fundamentals
-  - RESTful APIs
-  - Graph vs Azure Resource Manager
+  - [RESTful APIs](microsoft-api-fundamentals.md#restful-apis)
+  - [Graph vs Azure Resource Manager](microsoft-api-fundamentals.md#microsoft-graph-vs-azure-resource-manager)
 - [Usage](usage.md)
   - [Tokens](usage.md#tokens)
   - [Request Response Patterns](usage.md#request-response-patterns)
