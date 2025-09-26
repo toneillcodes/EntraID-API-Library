@@ -14,7 +14,7 @@ A collection of useful API endpoints.
   - Vaults
 - Web APIs
   - Recon
-    - OpenID Connect (OIDC) Discovery
-    - User Realm Discovery
+    - [OpenID Connect (OIDC) Discovery](apis/web/recon/oidc-discovery.md)
+    - [User Realm Discovery](apis/web/recon/user-realm-discovery.md)
 # References
 [Microsoft Graph REST API v1](https://learn.microsoft.com/en-us/graph/?view=graph-rest-1.0)
