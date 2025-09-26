@@ -19,7 +19,11 @@ A collection of useful API endpoints and how to use them.
     - [Recycle Bin](apis/graph/v1/recycle-bin.md)
   - [User](apis/graph/v1/user.md)
 - Azure Resource Manager (ARM) APIs
-  - Vaults
+  - Key Vault
+    - Certificates
+    - Vaults
+    - Keys
+    - Secrets
 - Web APIs
   - Recon
     - [OpenID Connect (OIDC) Discovery](apis/web/recon/oidc-discovery.md)
