@@ -10,9 +10,10 @@ A collection of useful API endpoints and how to use them.
   - [Tokens](usage.md#tokens)
   - [Request Response Patterns](usage.md#request-response-patterns)
 - Graph APIs
-  - Authentication
+  - Identity and Sign-in
     - [Authentication Methods](apis/graph/v1/authentication-methods.md)
     - [Microsoft Authenticator](apis/graph/v1/authenticator.md)
+    - Conditional Access Policies
   - [People](apis/graph/v1/people.md)
   - [Roles](apis/graph/v1/roles.md)
   - Files
