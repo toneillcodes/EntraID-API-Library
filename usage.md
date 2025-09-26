@@ -1,11 +1,5 @@
 # API Usage
 
-## Tools
-- PowerShell
-- curl
-- Bruno: This is my current favorite GUI-based tool for interacting with APIs. There are other options - use whichever you prefer and works best for your workflow.  
-  - "Bruno is a Git-friendly and offline-first open-source API client aimed at revolutionizing the status quo represented by tools like Postman and Insomnia." Source: [What Is Bruno?](https://docs.usebruno.com/)
-
 ## REST API Pattern
 ```
 {HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}
@@ -24,11 +18,18 @@ DELETE: Remove a resource.
 Tokens can be obtained after a session has been established for a user or service.  
 Tokens are implemented using Java Web Tokens, which allows them to be decoded and analyzed.
 
-## Request Response Patterns
 ### Obtain a token
 ```
 $GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
 ```
+
+## Tools
+- PowerShell
+- curl
+- Bruno: This is my current favorite GUI-based tool for interacting with APIs. There are other options - use whichever you prefer and works best for your workflow.  
+  - "Bruno is a Git-friendly and offline-first open-source API client aimed at revolutionizing the status quo represented by tools like Postman and Insomnia." Source: [What Is Bruno?](https://docs.usebruno.com/)
+
+## Request Response Patterns
 
 ### Using PowerShell
 
