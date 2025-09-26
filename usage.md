@@ -22,5 +22,27 @@ DELETE: Remove a resource.
 Tokens can be obtained after a session has been established for a user or service.  
 Tokens are implemented using Java Web Tokens, which allows them to be decoded and analyzed.
 
+## Request Response Patterns
+### Using PowerShell
+Obtain a token
+```
+$GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
+```
+
+Call the 'List people' endpoint for the authenticated user (/me/people) and output the result
+```
+$URI = "https://graph.microsoft.com/v1.0/me/people"
+$RequestParams = @{
+	Method = 'GET'
+	Uri = $URI
+	Headers = @{
+		'Authorization' = "Bearer $GraphAccessToken" 
+	}
+	ContentType = "application/json"
+}
+$ApiResult = Invoke-RestMethod @RequestParams
+$ApiResult
+```
+
 # References
 [Microsoft Graph: Use the API](https://learn.microsoft.com/en-us/graph/use-the-api)
