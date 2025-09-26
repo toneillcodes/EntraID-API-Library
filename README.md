@@ -6,7 +6,7 @@ Reference: [Microsoft Graph REST API v1](https://learn.microsoft.com/en-us/graph
   - [Tokens](usage.md#tokens)
   - Request Response Patterns
 - APIs
-  - User
+  - [User](user.md)
   - Roles
   - [People](people.md)
 > [!CAUTION]
