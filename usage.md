@@ -1,0 +1,17 @@
+# Microsoft Graph API Usage
+## Foundational Concepts
+- REST APIs: A REST API is an application programming interface (API) that follows the design principles of the REST architectural style. REST is short for representational state transfer, and is a set of rules and guidelines about how you should build a web API.
+- OData Namespace: The Microsoft Graph API defines most of its resources, methods, and enumerations in the OData namespace, microsoft.graph, in the Microsoft Graph metadata. 
+- Tokens: Tokens provide access to specific resources, which is defined by the 'scope' of the token.
+
+## REST API Pattern
+```
+{HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}
+```
+
+## Tokens
+Tokens can be obtained after a session has been established for a user or service.
+Tokens are implemented using Java Web Tokens, which allows them to be decoded and analyzed.
+
+# References
+[Microsoft Graph: Use the API](https://learn.microsoft.com/en-us/graph/use-the-api)
