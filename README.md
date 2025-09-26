@@ -11,7 +11,9 @@ A collection of useful API endpoints.
   - Authenticator
   - [People](apis/graph/v1/people.md)
   - [Roles](apis/graph/v1/roles.md)
-  - [Storage](apis/graph/v1/storage.md)
+  - Files
+    - [File Storage Containers](apis/graph/v1/file-storage-containers.md)
+    - Recycle Bin 
   - [User](apis/graph/v1/user.md)
   - Vaults
 - Web APIs
