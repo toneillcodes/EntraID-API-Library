@@ -10,7 +10,7 @@
 ```
 
 ## Tokens
-Tokens can be obtained after a session has been established for a user or service.
+Tokens can be obtained after a session has been established for a user or service.  
 Tokens are implemented using Java Web Tokens, which allows them to be decoded and analyzed.
 
 # References
