@@ -7,6 +7,7 @@ A collection of useful API endpoints and how to use them.
   - [RESTful APIs](microsoft-api-fundamentals.md#restful-apis)
   - [Graph vs Azure Resource Manager](microsoft-api-fundamentals.md#microsoft-graph-vs-azure-resource-manager)
 - [Usage](usage.md)
+  - [Tools](usage.md#tools)
   - [Tokens](usage.md#tokens)
   - [Request Response Patterns](usage.md#request-response-patterns)
 - Graph APIs
