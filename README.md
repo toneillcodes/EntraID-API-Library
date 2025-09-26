@@ -12,7 +12,7 @@ A collection of useful API endpoints and how to use them.
 - Graph APIs
   - Authentication
     - [Authentication Methods](apis/graph/v1/authentication-methods.md)
-    - Microsoft Authenticator
+    - [Microsoft Authenticator](apis/graph/v1/authenticator.md)
   - [People](apis/graph/v1/people.md)
   - [Roles](apis/graph/v1/roles.md)
   - Files
