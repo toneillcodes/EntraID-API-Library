@@ -25,11 +25,12 @@ Tokens can be obtained after a session has been established for a user or servic
 Tokens are implemented using Java Web Tokens, which allows them to be decoded and analyzed.
 
 ## Request Response Patterns
-### Using PowerShell
-Obtain a token
+### Obtain a token
 ```
 $GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
 ```
+
+### Using PowerShell
 
 Call the 'List people' endpoint for the authenticated user (/me/people) and output the result
 ```
@@ -44,6 +45,11 @@ $RequestParams = @{
 }
 $ApiResult = Invoke-RestMethod @RequestParams
 $ApiResult
+```
+
+### Using curl
+```
+$ curl  -H "Authorization: Bearer $GraphAccessToken" -H 'Content-Type: application/json' -X GET 'https://graph.microsoft.com/v1.0/me/people'
 ```
 
 # References
