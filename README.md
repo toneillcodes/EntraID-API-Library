@@ -7,10 +7,10 @@ A collection of useful API endpoints.
   - [Tokens](usage.md#tokens)
   - Request Response Patterns
 - Graph APIs
-  - [User](apis_v1/user.md)
-  - [Roles](apis_v1/roles.md)
-  - [People](apis_v1/people.md)
-  - [Storage](apis_v1/storage.md)
+  - [User](apis/graph/v1/user.md)
+  - [Roles](apis/graph/v1/roles.md)
+  - [People](apis/graph/v1/people.md)
+  - [Storage](apis/graph/v1/storage.md)
   - Vaults
 - Web APIs
   - Recon
