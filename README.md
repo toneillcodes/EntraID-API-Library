@@ -13,7 +13,7 @@ A collection of useful API endpoints.
   - [Roles](apis/graph/v1/roles.md)
   - Files
     - [File Storage Containers](apis/graph/v1/file-storage-containers.md)
-    - Recycle Bin 
+    - [Recycle Bin](apis/graph/v1/recycle-bin.md)
   - [User](apis/graph/v1/user.md)
   - Vaults
 - Web APIs
