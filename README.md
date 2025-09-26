@@ -5,7 +5,7 @@ A collection of useful API endpoints.
 ## Table of Contents
 - [Usage](usage.md)
   - [Tokens](usage.md#tokens)
-  - Request Response Patterns
+  - [Request Response Patterns](usage.md#request-response-patterns)
 - Graph APIs
   - [User](apis/graph/v1/user.md)
   - [Roles](apis/graph/v1/roles.md)
