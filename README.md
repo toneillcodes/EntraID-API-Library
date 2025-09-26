@@ -5,11 +5,12 @@ Reference: [Microsoft Graph REST API v1](https://learn.microsoft.com/en-us/graph
 - [Usage](usage.md)
   - [Tokens](usage.md#tokens)
   - Request Response Patterns
-- APIs
+- Graph APIs
   - [User](apis_v1/user.md)
   - [Roles](apis_v1/roles.md)
   - [People](apis_v1/people.md)
   - [Storage](apis_v1/storage.md)
   - Vaults
+- Web APIs
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
