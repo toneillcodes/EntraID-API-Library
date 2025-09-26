@@ -3,7 +3,8 @@ A collection of useful API endpoints.
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
 ## Table of Contents
-- Overview
+- Microsoft API Fundamentals
+  - RESTful APIs
   - Graph vs Azure Resource Manager
 - [Usage](usage.md)
   - [Tokens](usage.md#tokens)
