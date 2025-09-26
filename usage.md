@@ -8,6 +8,15 @@
 ```
 {HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}
 ```
+### HTTP Methods
+GET: Read data from a resource.  
+POST: Create a new resource, or perform an action.  
+PATCH: Update a resource with new values, or upsert a resource (create if resource doesn't exist, update otherwise).  
+PUT: Replace a resource with a new one.  
+DELETE: Remove a resource.
+
+- For the CRUD methods GET and DELETE, no request body is required.
+- The POST, PATCH, and PUT methods require a request body, usually specified in JSON format, that contains additional information, such as the values for properties of the resource.
 
 ## Tokens
 Tokens can be obtained after a session has been established for a user or service.  
