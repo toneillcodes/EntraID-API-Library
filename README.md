@@ -13,7 +13,7 @@ A collection of useful API endpoints and how to use them.
   - Identity and Sign-in
     - [Authentication Methods](apis/graph/v1/authentication-methods.md)
     - [Microsoft Authenticator](apis/graph/v1/authenticator.md)
-    - Conditional Access Policies
+    - [Conditional Access Policies](apis/graph/v1/conditional-access-policies.md)
   - [People](apis/graph/v1/people.md)
   - [Roles](apis/graph/v1/roles.md)
   - Files
