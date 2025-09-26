@@ -7,7 +7,7 @@ Reference: [Microsoft Graph REST API v1](https://learn.microsoft.com/en-us/graph
   - Request Response Patterns
 - APIs
   - [User](user.md)
-  - Roles
+  - [Roles](roles.md)
   - [People](people.md)
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
