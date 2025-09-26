@@ -1,5 +1,7 @@
 # Entra ID Offensive API Endpoints
 A collection of useful API endpoints.
+> [!CAUTION]
+> Disclaimer: Intended only for use on systems that you are legally authorized to access.
 ## Table of Contents
 - [Usage](usage.md)
   - [Tokens](usage.md#tokens)
@@ -11,7 +13,5 @@ A collection of useful API endpoints.
   - [Storage](apis_v1/storage.md)
   - Vaults
 - Web APIs
-> [!CAUTION]
-> Disclaimer: Intended only for use on systems that you are legally authorized to access.
 # References
 [Microsoft Graph REST API v1](https://learn.microsoft.com/en-us/graph/?view=graph-rest-1.0)
