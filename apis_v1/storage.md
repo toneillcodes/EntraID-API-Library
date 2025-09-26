@@ -1,4 +1,7 @@
 # Storage Endpoints
+
+Base URI: ```https://graph.microsoft.com/v1.0/```
+
 ## List File Storage Containers
 | Method   | URI |
 | :------- | :------- |
