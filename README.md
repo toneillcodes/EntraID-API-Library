@@ -13,5 +13,7 @@ A collection of useful API endpoints.
   - [Storage](apis_v1/storage.md)
   - Vaults
 - Web APIs
+  - OpenID Connect (OIDC) Discovery
+  - User Realm Discovery
 # References
 [Microsoft Graph REST API v1](https://learn.microsoft.com/en-us/graph/?view=graph-rest-1.0)
