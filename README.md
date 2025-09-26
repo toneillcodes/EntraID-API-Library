@@ -9,5 +9,7 @@ Reference: [Microsoft Graph REST API v1](https://learn.microsoft.com/en-us/graph
   - [User](apis_v1/user.md)
   - [Roles](apis_v1/roles.md)
   - [People](apis_v1/people.md)
+  - Storage
+  - Vaults
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
