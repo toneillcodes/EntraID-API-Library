@@ -1,6 +1,7 @@
 # User Realm Discovery Endpoint
 
 ## Description
+This endpoint is used to resolve settings that support user authentication transactions and inform the Microsoft IdP how it should behave.
 
 ## Usage and Examples
 A GET request to the ```getuserrealm.srf``` endpoint with the target domain will respond with JSON
