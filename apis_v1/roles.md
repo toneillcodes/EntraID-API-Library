@@ -1,4 +1,7 @@
 # Role Endpoints
+
+Base URI: ```https://graph.microsoft.com/v1.0/```
+
 ## List
 | Method   | URI |
 | :------- | :------- |
