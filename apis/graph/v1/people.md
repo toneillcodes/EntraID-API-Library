@@ -11,6 +11,11 @@ Base URI: ```https://graph.microsoft.com/v1.0/```
 
 [MS Graph: List people](https://learn.microsoft.com/en-us/graph/api/user-list-people?view=graph-rest-1.0&tabs=http)
 
+### Query Parameters
+This method supports the $filter, $orderby, $search, $select, $skip, and $top OData query parameters to help customize the response.  
+**NOTE**: For a detailed explanation on how to leverage this API, review the following article:  
+[MS Graph: People Insights - Search People](https://learn.microsoft.com/en-us/graph/people-insights-overview#search-people)
+
 ## Authorization
 - People.Read - Use to make general people API calls; for example, https://graph.microsoft.com/v1.0/me/people/. People.Read requires end user consent.
 - People.Read.All - Required to retrieve the people most relevant to a specified user in the signed-in user’s organization (https://graph.microsoft.com/v1.0/users/{id}/people) calls. People.Read.All requires admin consent.
