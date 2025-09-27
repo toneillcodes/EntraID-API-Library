@@ -1,6 +1,6 @@
 # Authenticator Endpoints
-Overview: [microsoftAuthenticatorAuthenticationMethod resource type](https://learn.microsoft.com/en-us/graph/api/resources/microsoftauthenticatorauthenticationmethod?view=graph-rest-1.0)  
-Base URI: ```https://graph.microsoft.com/v1.0/```
+Resource: [microsoftAuthenticatorAuthenticationMethod resource type](https://learn.microsoft.com/en-us/graph/api/resources/microsoftauthenticatorauthenticationmethod?view=graph-rest-1.0)  
+API Base URI: ```https://graph.microsoft.com/v1.0/```
 
 ## List Methods
 | Method   | URI |
