@@ -2,7 +2,7 @@
 
 ## REST API Pattern
 ```
-{HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}
+{HTTP method} https://{api-base-uri}/{version}/{resource}?{query-parameters}
 ```
 ### HTTP Methods
 GET: Read data from a resource.  
@@ -20,7 +20,10 @@ DELETE: Remove a resource.
 - A specific scope can be requested by the client application during the initial authentication process.  
 - Tokens are implemented using Java Web Tokens (JWT), which allows them to be decoded and analyzed.
 
-### Obtain a Graph token
+### Obtain a Token
+#### Get-AzAccessToken
+Optional resource type name, supported values: AadGraph, AnalysisServices, AppConfiguration, Arm, Attestation, Batch, CommunicationEmail, DataLake, KeyVault, MSGraph, OperationalInsights, ResourceManager, Storage, Synapse. **Default value is Arm if not specified**.
+#### Graph Token with MSGraph
 ```
 $GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
 ```
