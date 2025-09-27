@@ -7,9 +7,16 @@ A collection of useful API endpoints and how to use them.
   - [RESTful APIs](microsoft-api-fundamentals.md#restful-apis)
   - [Graph vs Azure Resource Manager](microsoft-api-fundamentals.md#microsoft-graph-vs-azure-resource-manager)
 - [Usage](usage.md)
-  - [Tools](usage.md#tools)
+  - API Patterns
+	  - [Graph API Pattern](usage.md#graph-api-pattern)
+	  - [ARM API Pattern](usage.md#arm-api-pattern)
+	  - [ARM Subdomains](usage.md#arm-subdomains)
+	  - [HTTP Methods](usage.md#http-methods)
   - [Tokens](usage.md#tokens)
+    - [Obtain a Token](usage.md#obtain-a-token)
+  - [Tools](usage.md#tools)
   - [Request Response Patterns](usage.md#request-response-patterns)
+  - [References](usage.md#references)
 - Graph APIs
   - Identity and Sign-in
     - [Authentication Methods](apis/graph/v1/authentication-methods.md)
