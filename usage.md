@@ -15,10 +15,12 @@ DELETE: Remove a resource.
 - The POST, PATCH, and PUT methods require a request body, usually specified in JSON format, that contains additional information, such as the values for properties of the resource.
 
 ## Tokens
-Tokens can be obtained after a session has been established for a user or service.  
-Tokens are implemented using Java Web Tokens, which allows them to be decoded and analyzed.
+- Tokens can be obtained after a session has been established for a user or service.  
+- Tokens have a 'scope' that indicates what permissions the caller has when using the token.  
+- A specific scope can be requested by the client application during the initial authentication process.  
+- Tokens are implemented using Java Web Tokens (JWT), which allows them to be decoded and analyzed.
 
-### Obtain a token
+### Obtain a Graph token
 ```
 $GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
 ```
