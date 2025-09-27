@@ -1,6 +1,6 @@
 # Conditional Access Policy Endpoints
-
-Base URI: ```https://graph.microsoft.com/v1.0/```
+Resource: [conditionalAccessPolicy resource type](https://learn.microsoft.com/en-us/graph/api/resources/conditionalaccesspolicy?view=graph-rest-1.0)  
+API Base URI: ```https://graph.microsoft.com/v1.0/```
 
 ## List policies
 | Method   | URI |
@@ -305,3 +305,13 @@ Content-type: application/json
 }
 ```
 
+## Delete Policy
+| Method   | URI |
+| :------- | :------- |
+| DELETE | /identity/conditionalAccess/policies/{id} |
+
+### Example Response
+```
+HTTP/1.1 204 No Content
+```
+Source: [MS Graph: Conditional access policy Delete Response](https://learn.microsoft.com/en-us/graph/api/conditionalaccesspolicy-delete?view=graph-rest-1.0&tabs=http#response-1)
