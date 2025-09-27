@@ -9,6 +9,8 @@
 ```
 {HTTP method} https://{resource-base-uri}/{resource-path}?{query-string}
 ```
+
+### ARM Subdomains
 Unlike Graph, the ARM APIs are spread across multiple subdomains.  
 This is not a comprehensive table, but lists some relevant subdomains along with a brief description of their purpose.
 
