@@ -36,6 +36,12 @@ This method supports the $select OData query parameter to retrieve specific user
 | :------- | :------- | :------- |
 | currentPassword | String | Your current password |
 | newPassword | String | Your new password |
+
+### Request Headers
+| Header   | Value |
+| :------- | :------- |
+| Content-type | application/json |
+
 ### Example Request
 ```
 POST https://graph.microsoft.com/v1.0/me/changePassword
