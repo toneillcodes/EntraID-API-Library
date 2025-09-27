@@ -58,9 +58,9 @@ DELETE: Remove a resource.
 
 ### Using PowerShell
 
-Call the 'List users' endpoint (/me/users) and output the result
+Call the 'List users' endpoint (/users) and output the result
 ```
-$URI = "https://graph.microsoft.com/v1.0/me/users"
+$URI = "https://graph.microsoft.com/v1.0/users"
 $RequestParams = @{
 	Method = 'GET'
 	Uri = $URI
