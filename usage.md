@@ -1,9 +1,26 @@
 # API Usage
 
-## REST API Pattern
+## API Patterns
+### Graph API Pattern
 ```
-{HTTP method} https://{api-base-uri}/{version}/{resource}?{query-parameters}
+{HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}
 ```
+### ARM API Pattern
+```
+{HTTP method} https://{resource-base-uri}/{resource-path}?{query-string}
+```
+
+
+| Azure Service	| Example Subdomain Pattern	| Purpose |
+| :------- | :------- | :------- |
+| Azure Management (General)	| *.management.azure.com | 	Primary endpoint for ARM and most Azure management operations.
+| Resource Provider Operations	| {0provider-name}.{region}.resource.azure.com | 	Specific endpoints for some resource provider operations (less common than the primary ARM endpoint).
+| Azure Key Vault	| *.vault.azure.net | 	Used for Key Vault operations (data plane).
+| Azure Storage	| *.blob.core.windows.net, *.table.core.windows.net, *.queue.core.windows.net, *.file.core.windows.net| 	Used for storage data plane operations.
+| Azure API Management	| *.azure-api.net| 	Default domain for the API Gateway and Developer Portal of an API Management instance.
+| Azure Websites/App Services	| *.azurewebsites.net| 	Default domains for hosted web apps.
+Source: [Azure Domains](https://learn.microsoft.com/en-us/azure/security/fundamentals/azure-domains)
+
 ### HTTP Methods
 GET: Read data from a resource.  
 POST: Create a new resource, or perform an action.  
