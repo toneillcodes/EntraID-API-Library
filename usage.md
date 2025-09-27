@@ -2,6 +2,8 @@
 
 ## Tokens
 - Tokens can be obtained after a session has been established for a user or service.  
+- Different resources require different tokens, so specifying the correct resource is critical.
+  - You cannot call a resource API with a token bound to a different resource
 - Tokens have a 'scope' that indicates what permissions the caller has when using the token.  
 - A specific scope can be requested by the client application during the initial authentication process.  
 - Tokens are implemented using Java Web Tokens (JWT), which allows them to be decoded and analyzed.
