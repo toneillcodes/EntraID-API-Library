@@ -1,5 +1,6 @@
 # Authentication Methods Endpoints
-Base URI: ```https://graph.microsoft.com/v1.0/```
+Resource: [Authentication method](https://learn.microsoft.com/en-us/graph/api/resources/authenticationmethod?view=graph-rest-1.0)  
+API Base URI: ```https://graph.microsoft.com/v1.0/```
 
 ## List Authentication Methods
 | Method   | URI |
