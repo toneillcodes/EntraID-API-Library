@@ -58,9 +58,9 @@ DELETE: Remove a resource.
 
 ### Using PowerShell
 
-Call the 'List people' endpoint for the authenticated user (/me/people) and output the result
+Call the 'List users' endpoint (/me/user) and output the result
 ```
-$URI = "https://graph.microsoft.com/v1.0/me/people"
+$URI = "https://graph.microsoft.com/v1.0/me/user"
 $RequestParams = @{
 	Method = 'GET'
 	Uri = $URI
@@ -75,7 +75,7 @@ $ApiResult
 
 ### Using curl
 ```
-$ curl  -H "Authorization: Bearer $GraphAccessToken" -H 'Content-Type: application/json' -X GET 'https://graph.microsoft.com/v1.0/me/people'
+$ curl  -H "Authorization: Bearer $GraphAccessToken" -H 'Content-Type: application/json' -X GET 'https://graph.microsoft.com/v1.0/user'
 ```
 
 # References
