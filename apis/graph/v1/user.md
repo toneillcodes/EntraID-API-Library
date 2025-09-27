@@ -26,3 +26,27 @@ This method supports the $select OData query parameter to retrieve specific user
 
 [MS Graph: User Get](https://learn.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http)  
 [MS Graph: User Get Query Parameters](https://learn.microsoft.com/en-us/graph/api/user-get?view=graph-rest-1.0&tabs=http#optional-query-parameters)
+
+## Change Password
+| Method   | URI |
+| :------- | :------- |
+| POST | /me/changePassword |
+### Request Body
+| Parameter | Type | Description |
+| :------- | :------- | :------- |
+| currentPassword | String | Your current password |
+| newPassword | String | Your new password |
+### Example Request
+```
+POST https://graph.microsoft.com/v1.0/me/changePassword
+Content-type: application/json
+
+{
+    "currentPassword": "xWwvJ]6NMw+bWH-d",
+    "newPassword": "0eM85N54wFxWwvJ]"
+}
+```
+### Example Response
+```
+HTTP/1.1 204 No Content
+```
