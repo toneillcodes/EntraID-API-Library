@@ -1,4 +1,4 @@
-# Entra ID Offensive API Endpoints
+# Entra ID API Library
 A collection of useful API endpoints and how to use them.
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
