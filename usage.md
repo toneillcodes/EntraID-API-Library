@@ -1,6 +1,29 @@
 # API Usage
 
 ## API Patterns
+
+## Tokens
+- Tokens can be obtained after a session has been established for a user or service.  
+- Tokens have a 'scope' that indicates what permissions the caller has when using the token.  
+- A specific scope can be requested by the client application during the initial authentication process.  
+- Tokens are implemented using Java Web Tokens (JWT), which allows them to be decoded and analyzed.
+
+### Obtain a Token
+#### Get-AzAccessToken
+Optional resource type name, supported values: AadGraph, AnalysisServices, AppConfiguration, Arm, Attestation, Batch, CommunicationEmail, DataLake, KeyVault, MSGraph, OperationalInsights, ResourceManager, Storage, Synapse. **Default value is Arm if not specified**.
+#### Graph Token with MSGraph
+```
+$GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
+```
+
+## Tools
+- PowerShell
+- curl
+- Bruno: This is my current favorite GUI-based tool for interacting with APIs. There are other options - use whichever you prefer and works best for your workflow.  
+  - "Bruno is a Git-friendly and offline-first open-source API client aimed at revolutionizing the status quo represented by tools like Postman and Insomnia." Source: [What Is Bruno?](https://docs.usebruno.com/)
+
+## Request Patterns
+
 ### Graph API Pattern
 ```
 {HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}
@@ -34,28 +57,6 @@ DELETE: Remove a resource.
 
 - For the CRUD methods GET and DELETE, no request body is required.
 - The POST, PATCH, and PUT methods require a request body, usually specified in JSON format, that contains additional information, such as the values for properties of the resource.
-
-## Tokens
-- Tokens can be obtained after a session has been established for a user or service.  
-- Tokens have a 'scope' that indicates what permissions the caller has when using the token.  
-- A specific scope can be requested by the client application during the initial authentication process.  
-- Tokens are implemented using Java Web Tokens (JWT), which allows them to be decoded and analyzed.
-
-### Obtain a Token
-#### Get-AzAccessToken
-Optional resource type name, supported values: AadGraph, AnalysisServices, AppConfiguration, Arm, Attestation, Batch, CommunicationEmail, DataLake, KeyVault, MSGraph, OperationalInsights, ResourceManager, Storage, Synapse. **Default value is Arm if not specified**.
-#### Graph Token with MSGraph
-```
-$GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
-```
-
-## Tools
-- PowerShell
-- curl
-- Bruno: This is my current favorite GUI-based tool for interacting with APIs. There are other options - use whichever you prefer and works best for your workflow.  
-  - "Bruno is a Git-friendly and offline-first open-source API client aimed at revolutionizing the status quo represented by tools like Postman and Insomnia." Source: [What Is Bruno?](https://docs.usebruno.com/)
-
-## Request Patterns
 
 ### Using PowerShell
 
