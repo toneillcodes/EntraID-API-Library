@@ -1,7 +1,5 @@
 # API Usage
 
-## API Patterns
-
 ## Tokens
 - Tokens can be obtained after a session has been established for a user or service.  
 - Tokens have a 'scope' that indicates what permissions the caller has when using the token.  
