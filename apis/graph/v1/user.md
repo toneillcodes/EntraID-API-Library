@@ -1,5 +1,6 @@
 # User Endpoints
 
+Resource: [user resource type](https://learn.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0)  
 Base URI: ```https://graph.microsoft.com/v1.0/```
 
 ## List
