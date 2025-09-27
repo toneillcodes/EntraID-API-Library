@@ -14,7 +14,8 @@ Optional resource type name, supported values: AadGraph, AnalysisServices, AppCo
 $ARMAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -AsSecureString).Token))
 ```
 
-#### Graph Token by supplying ```-ResourceTypeName MSGraph```
+#### Graph Token
+Using ```-ResourceTypeName MSGraph```
 ```
 $GraphAccessToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR((Get-AzAccessToken -ResourceTypeName MSGraph -AsSecureString).Token))
 ```
