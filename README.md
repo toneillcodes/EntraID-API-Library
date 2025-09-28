@@ -3,21 +3,21 @@ A collection of useful API endpoints and how to use them.
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
 ## Table of Contents
-- [Microsoft API Fundamentals](microsoft-api-fundamentals.md)
-  - [RESTful APIs](microsoft-api-fundamentals.md#restful-apis)
-  - [Graph vs Azure Resource Manager](microsoft-api-fundamentals.md#microsoft-graph-vs-azure-resource-manager)
-- [Usage](usage.md)
-  - [Tokens](usage.md#tokens)
-    - [Obtain a Token](usage.md#obtain-a-token) 
-  - [Tools](usage.md#tools)
-  - [Request Patterns](usage.md#request-patterns)
-	  - [Graph API Pattern](usage.md#graph-api-pattern)
-	  - [ARM API Pattern](usage.md#arm-api-pattern)
-	  - [ARM Subdomains](usage.md#arm-subdomains)
-	  - [HTTP Methods](usage.md#http-methods)
-      - [Using PowerShell](usage.md#using-powershell)
-      - [Using curl](usage.md#using-curl)
-  - [References](usage.md#references)
+- [Microsoft API Fundamentals](fundamentals/microsoft-api-fundamentals.md)
+  - [RESTful APIs](fundamentals/microsoft-api-fundamentals.md#restful-apis)
+  - [Graph vs Azure Resource Manager](fundamentals/microsoft-api-fundamentals.md#microsoft-graph-vs-azure-resource-manager)
+- [Usage](fundamentals/usage.md)
+  - [Tokens](fundamentals/usage.md#tokens)
+    - [Obtain a Token](fundamentals/usage.md#obtain-a-token) 
+  - [Tools](fundamentals/usage.md#tools)
+  - [Request Patterns](fundamentals/usage.md#request-patterns)
+	  - [Graph API Pattern](fundamentals/usage.md#graph-api-pattern)
+	  - [ARM API Pattern](fundamentals/usage.md#arm-api-pattern)
+	  - [ARM Subdomains](fundamentals/usage.md#arm-subdomains)
+	  - [HTTP Methods](fundamentals/usage.md#http-methods)
+      - [Using PowerShell](fundamentals/usage.md#using-powershell)
+      - [Using curl](fundamentals/usage.md#using-curl)
+  - [References](fundamentals/usage.md#references)
 - Graph APIs
   - Identity and Sign-in
     - [Authentication Methods](apis/graph/v1/authentication-methods.md)
@@ -25,16 +25,32 @@ A collection of useful API endpoints and how to use them.
     - [Conditional Access Policies](apis/graph/v1/conditional-access-policies.md)
   - [People](apis/graph/v1/people.md)
   - [Roles](apis/graph/v1/roles.md)
+    - [List](apis/graph/v1/roles.md#list)
+    - [Get](apis/graph/v1/roles.md#get)  
   - Files
     - [File Storage Containers](apis/graph/v1/file-storage-containers.md)
     - [Recycle Bin](apis/graph/v1/recycle-bin.md)
   - [User](apis/graph/v1/user.md)
+    - [List](apis/graph/v1/user.md#list)
+    - [Get](apis/graph/v1/user.md#get)
+    - [Change Password](apis/graph/v1/user.md#change-password)
 - Azure Resource Manager (ARM) APIs
-  - Key Vault
-    - Certificates
-    - Vaults
-    - Keys
-    - Secrets
+  - [Key Vaults](apis/arm/key-vaults.md)
+    - [Vaults](apis/arm/key-vaults.md)
+      - [List](apis/arm/key-vaults.md#list)
+      - [Get](apis/arm/key-vaults.md#get)
+    - [Keys](apis/arm/vault-keys.md)
+      - [List](apis/arm/vault-keys.md#list)
+      - [Get](apis/arm/vault-keys.md#get)
+      - [Recover](apis/arm/vault-keys.md#recover)
+    - [Secrets](apis/arm/vault-secrets.md)
+      - [List](apis/arm/vault-secrets.md#list)
+      - [Get](apis/arm/vault-secrets.md#get)
+      - [Recover](apis/arm/vault-secrets.md#recover)
+    - [Certificates](apis/arm/vault-certificates.md)
+      - [List](apis/arm/vault-certificates.md#list)
+      - [Get](apis/arm/vault-certificates.md#get)
+      - [Recover](apis/arm/vault-certificates.md#recover)
 - Web APIs
   - Recon
     - [OpenID Connect (OIDC) Discovery](apis/web/recon/oidc-discovery.md)

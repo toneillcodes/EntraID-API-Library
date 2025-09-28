@@ -68,14 +68,7 @@ DELETE: Remove a resource.
 Call the 'List users' endpoint (/users) and output the result
 ```
 $URI = "https://graph.microsoft.com/v1.0/users"
-$RequestParams = @{
-	Method = 'GET'
-	Uri = $URI
-	Headers = @{
-		'Authorization' = "Bearer $GraphAccessToken" 
-	}
-	ContentType = "application/json"
-}
+$RequestParams = @{Method = 'GET'; Uri = $URI; Headers = @{'Authorization' = "Bearer $GraphAccessToken"}; ContentType = "application/json"}
 $ApiResult = Invoke-RestMethod @RequestParams
 $ApiResult
 ```
