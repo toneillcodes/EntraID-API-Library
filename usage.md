@@ -2,10 +2,9 @@
 
 ## Tokens
 - Tokens can be obtained after a session has been established for a user or service.  
-- Different resources require different tokens, so specifying the correct resource is critical.
-  - You cannot call a resource API with a token bound to a different resource
-- Tokens have a 'scope' that indicates what permissions the caller has when using the token.  
-- A specific scope can be requested by the client application during the initial authentication process.  
+- The target resource type must be defined, otherwise ARM is assumed
+- Tokens are bound to the resource type that they are generated for and cannot be used interchangably
+  - Graph Access Tokens cannot be used for ARM APIs and vice versa
 - Tokens are implemented using Java Web Tokens (JWT), which allows them to be decoded and analyzed.
 
 ### Obtain a Token
