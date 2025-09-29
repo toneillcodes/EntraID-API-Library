@@ -1,5 +1,5 @@
 # Vault Certificates Endpoints
-Resource: [Vault Certificates](https://learn.microsoft.com/en-us/rest/api/keyvault/certificates/operation-groups?view=rest-keyvault-certificates-7.4)
+Resource: [Vault Certificates](https://learn.microsoft.com/en-us/rest/api/keyvault/certificates/operation-groups?view=rest-keyvault-certificates-7.4)  
 Base API URI: ```{vaultBaseUrl}```
 
 ## List

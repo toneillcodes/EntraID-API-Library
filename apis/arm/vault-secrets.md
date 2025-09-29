@@ -1,5 +1,5 @@
 # Vault Secrets Endpoints
-Resource: [Vault Secrets](https://learn.microsoft.com/en-us/rest/api/keyvault/secrets/operation-groups?view=rest-keyvault-secrets-7.4)
+Resource: [Vault Secrets](https://learn.microsoft.com/en-us/rest/api/keyvault/secrets/operation-groups?view=rest-keyvault-secrets-7.4)  
 Base API URI: ```{vaultBaseUrl}```
 
 ## List

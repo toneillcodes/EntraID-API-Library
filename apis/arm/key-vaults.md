@@ -1,5 +1,5 @@
 # Key Vault Endpoints
-Resource: [Key Vault](https://learn.microsoft.com/en-us/rest/api/keyvault/?view=rest-keyvault-keyvault-2022-07-01)
+Resource: [Key Vault](https://learn.microsoft.com/en-us/rest/api/keyvault/?view=rest-keyvault-keyvault-2022-07-01)  
 Base API URI: ```https://management.azure.com/subscriptions/{subscriptionId}```
 
 ## List

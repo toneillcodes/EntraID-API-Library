@@ -1,6 +1,6 @@
 # Role Endpoints
 Resource: [unifiedRoleDefinition resource type](https://learn.microsoft.com/en-us/graph/api/resources/unifiedroledefinition?view=graph-rest-1.0)  
-Base URI: ```https://graph.microsoft.com/v1.0/```
+Base API URI: ```https://graph.microsoft.com/v1.0/```
 
 ## List
 | Method   | URI |

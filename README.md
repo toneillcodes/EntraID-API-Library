@@ -1,5 +1,6 @@
 # Entra ID API Library
 A collection of useful API endpoints and how to use them.
+The majority of the information found here is well documented by Microsoft and poorly documented by myself.
 > [!CAUTION]
 > Disclaimer: Intended only for use on systems that you are legally authorized to access.
 ## Table of Contents
@@ -18,7 +19,7 @@ A collection of useful API endpoints and how to use them.
       - [Using PowerShell](fundamentals/usage.md#using-powershell)
       - [Using curl](fundamentals/usage.md#using-curl)
   - [References](fundamentals/usage.md#references)
-- Graph APIs
+- **Graph APIs**
   - Identity and Sign-in
     - [Authentication Methods](apis/graph/v1/authentication-methods.md)
     - [Microsoft Authenticator](apis/graph/v1/authenticator.md)
@@ -26,15 +27,18 @@ A collection of useful API endpoints and how to use them.
   - [People](apis/graph/v1/people.md)
   - [Roles](apis/graph/v1/roles.md)
     - [List](apis/graph/v1/roles.md#list)
-    - [Get](apis/graph/v1/roles.md#get)  
-  - Files
+    - [Get](apis/graph/v1/roles.md#get)
+  - [Role Assignment](apis/graph/v1/role-assignment.md)
+    - [List](apis/graph/v1/role-assignment.md#list)
+    - [Get](apis/graph/v1/role-assignment.md#get)
+  - **Files**
     - [File Storage Containers](apis/graph/v1/file-storage-containers.md)
     - [Recycle Bin](apis/graph/v1/recycle-bin.md)
   - [User](apis/graph/v1/user.md)
     - [List](apis/graph/v1/user.md#list)
     - [Get](apis/graph/v1/user.md#get)
     - [Change Password](apis/graph/v1/user.md#change-password)
-- Azure Resource Manager (ARM) APIs
+- **Azure Resource Manager (ARM) API**
   - [Key Vaults](apis/arm/key-vaults.md)
     - [Vaults](apis/arm/key-vaults.md)
       - [List](apis/arm/key-vaults.md#list)
@@ -51,8 +55,8 @@ A collection of useful API endpoints and how to use them.
       - [List](apis/arm/vault-certificates.md#list)
       - [Get](apis/arm/vault-certificates.md#get)
       - [Recover](apis/arm/vault-certificates.md#recover)
-- Web APIs
-  - Recon
+- **Web APIs**
+  - **Reconnaissance**
     - [OpenID Connect (OIDC) Discovery](apis/web/recon/oidc-discovery.md)
     - [User Realm Discovery](apis/web/recon/user-realm-discovery.md)
 # References
