@@ -1,5 +1,27 @@
 # API Usage
 
+## Azure PowerShell Login Examples
+Check for existing sessions
+```
+Get-AzContext
+```
+### Using a UPN and Password
+```
+$username = "someuser@domain.onmicrosoft.com"
+$password = "WAh00000Vjo"
+$tenantId = "2b7a41c2-..."
+$credentials = (New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $username, (ConvertTo-SecureString -String $password -AsPlainText -Force))
+Connect-AzAccount -Tenant $tenantId -Credential $credentials
+```
+
+### Using a Service Principal and Secret 
+```
+$servicePrincipalId = "6960bb69-..."
+$servicePrincipalSecret = "y6c8Q~AxXg..."
+$tenantId = "2b7a41c2-..."
+Connect-AzAccount -ServicePrincipal -Credential (New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $servicePrincipalId, (ConvertTo-SecureString -String $servicePrincipalSecret -AsPlainText -Force)) -Tenant $tenantId
+```
+
 ## Tokens
 - Tokens can be obtained after a session has been established for a user or service.  
 - The target resource type must be defined, otherwise ARM is assumed
