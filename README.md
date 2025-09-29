@@ -20,7 +20,7 @@ The majority of the information found here is well documented by Microsoft and p
       - [Using curl](fundamentals/usage.md#using-curl)
   - [References](fundamentals/usage.md#references)
 - **Graph APIs**
-  - Identity and Sign-in
+  - **Identity and Sign-in**
     - [Authentication Methods](apis/graph/v1/authentication-methods.md)
     - [Microsoft Authenticator](apis/graph/v1/authenticator.md)
     - [Conditional Access Policies](apis/graph/v1/conditional-access-policies.md)
@@ -38,6 +38,13 @@ The majority of the information found here is well documented by Microsoft and p
     - [List](apis/graph/v1/user.md#list)
     - [Get](apis/graph/v1/user.md#get)
     - [Change Password](apis/graph/v1/user.md#change-password)
+  - [User Groups](apis/graph/v1/user-groups.md)
+    - [List Joined Teams](apis/graph/v1/user-groups.md#list-teams)
+    - [List Direct Memberships](apis/graph/v1/user-groups.md#list-direct-memberships)
+    - [List Transitive Memberships](apis/graph/v1/user-groups.md#list-transitive-memberships)
+  - [Group](apis/graph/v1/group.md)
+    - [List](apis/graph/v1/group.md#list)
+    - [Get](apis/graph/v1/group.md#get)
 - **Azure Resource Manager (ARM) API**
   - [Key Vaults](apis/arm/key-vaults.md)
     - [Vaults](apis/arm/key-vaults.md)
