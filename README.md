@@ -46,6 +46,12 @@ The majority of the information found here is well documented by Microsoft and p
     - [List](apis/graph/v1/group.md#list)
     - [Get](apis/graph/v1/group.md#get)
 - **Azure Resource Manager (ARM) API**
+  - [Resource Groups](apis/arm/resource-groups.md)
+    - [List](apis/arm/resource-groups.md#list)
+    - [Get](apis/arm/resource-groups.md#get)
+  - [Resources]
+    - [List]
+    - [Get]  
   - [Key Vaults](apis/arm/key-vaults.md)
     - [Vaults](apis/arm/key-vaults.md)
       - [List](apis/arm/key-vaults.md#list)
