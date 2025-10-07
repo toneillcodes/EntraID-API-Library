@@ -49,9 +49,9 @@ The majority of the information found here is well documented by Microsoft and p
   - [Resource Groups](apis/arm/resource-groups.md)
     - [List](apis/arm/resource-groups.md#list)
     - [Get](apis/arm/resource-groups.md#get)
-  - [Resources]
-    - [List]
-    - [Get]  
+  - [Resources](apis/arm/resources.md)
+    - [List](apis/arm/resources.md#list)
+    - [Get](apis/arm/resources.md#get)
   - [Key Vaults](apis/arm/key-vaults.md)
     - [Vaults](apis/arm/key-vaults.md)
       - [List](apis/arm/key-vaults.md#list)
