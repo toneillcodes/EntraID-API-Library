@@ -31,9 +31,6 @@ The majority of the information found here is well documented by Microsoft and p
   - [Role Assignment](apis/graph/v1/role-assignment.md)
     - [List](apis/graph/v1/role-assignment.md#list)
     - [Get](apis/graph/v1/role-assignment.md#get)
-  - **Files**
-    - [File Storage Containers](apis/graph/v1/file-storage-containers.md)
-    - [Recycle Bin](apis/graph/v1/recycle-bin.md)
   - [User](apis/graph/v1/user.md)
     - [List](apis/graph/v1/user.md#list)
     - [Get](apis/graph/v1/user.md#get)
@@ -45,6 +42,18 @@ The majority of the information found here is well documented by Microsoft and p
   - [Group](apis/graph/v1/group.md)
     - [List](apis/graph/v1/group.md#list)
     - [Get](apis/graph/v1/group.md#get)
+  - **Calendar**
+    - [Calender]
+      - [List](apis/graph/v1/calendar.md#list)
+      - [Get](apis/graph/v1/calendar.md#get)
+      - [List events](apis/graph/v1/calendar.md#list-events)
+      - [Create event](apis/graph/v1/calendar.md#create-event)
+      - [Get event]
+      - [Update event]
+      - [Delete](apis/graph/v1/calendar.md#delete)
+  - **Files**
+    - [File Storage Containers](apis/graph/v1/file-storage-containers.md)
+    - [Recycle Bin](apis/graph/v1/recycle-bin.md)    
 - **Azure Resource Manager (ARM) API**
   - [Resource Groups](apis/arm/resource-groups.md)
     - [List](apis/arm/resource-groups.md#list)
